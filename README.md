@@ -1,103 +1,144 @@
+# 🚀 DataPulse Enterprise
+
+Enterprise DataOps Command Center for monitoring pipelines, data quality, SLAs, incidents and platform reliability.
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Gradio](https://img.shields.io/badge/Gradio-Live-orange)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Space-yellow)
+![DataOps](https://img.shields.io/badge/DataOps-Enterprise-success)
+![AI](https://img.shields.io/badge/AI-Powered-purple)
+
+## 🌐 Live Demo
+
+https://huggingface.co/spaces/pallavikwatra/DataPulse-Enterprise
+
 ---
-title: DataPulse Enterprise
-emoji: 📡
-colorFrom: blue
-colorTo: green
-sdk: gradio
-sdk_version: 4.44.0
-app_file: app.py
-pinned: false
----
-
-# DataPulse Enterprise — Real-Time Data Engineering Command Center
-
-DataPulse Enterprise is a no-cost Hugging Face Spaces project built with Python and Gradio. It simulates an enterprise data operations command center for senior data engineering portfolios.
-
-## Live Demo
-
-Add your Hugging Face Spaces URL here after deployment.
 
 ## Overview
 
-DataPulse Enterprise monitors data quality, pipeline SLAs, real-time pipeline status, lineage impact, incidents and root-cause analysis across critical enterprise data products.
+DataPulse Enterprise simulates a real-world Data Operations platform used by enterprise data engineering teams.
 
-This project demonstrates senior data engineering concepts beyond ETL:
+The platform provides centralized monitoring for:
 
-- Data observability
-- Pipeline monitoring
+- Data pipelines
 - SLA tracking
-- Data quality gates
-- Lineage and impact analysis
+- Data quality observability
 - Incident management
-- AI-style reliability assistant
-- RCA report generation
-- Real-time operational command center design
+- Reliability engineering
+- Root cause analysis
+- AI-powered operational assistance
+
+---
 
 ## Key Features
 
-### Executive Command Center
-- Platform health score
-- Data quality pass rate
-- Pipeline SLA score
-- Open incidents
-- Critical data product monitoring
+### 📡 Pipeline Monitoring
 
-### Real-Time Pipeline Monitoring
-- Running / failed / delayed / succeeded pipeline states
-- Runtime vs SLA
-- Retry count
-- Backlog events
-- CPU utilisation
-- Error categories
+Track:
+
+- Running pipelines
+- Failed pipelines
+- Success rates
+- Execution trends
+
+### 📊 Data Quality Hub
+
+Monitor:
+
+- Completeness
+- Accuracy
+- Freshness
+- Quality scores
+
+### 🚨 Incident Command Center
+
+Analyze:
+
+- Active incidents
+- Severity levels
+- Impacted systems
+- Root cause summaries
+
+### 🤖 Reliability Copilot
+
+AI assistant capable of answering:
+
+- Pipeline issues
+- Data quality concerns
+- Reliability recommendations
+- Operational best practices
+
+---
+
+## Architecture
+
+DataPulse follows a modern DataOps architecture:
+
+Source Systems
+↓
+Ingestion Layer
+↓
+Data Processing
+↓
+Monitoring Layer
+↓
+Quality Framework
+↓
+Incident Intelligence
+↓
+Executive Dashboards
+
+---
+
+## Screenshots
+
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+### Pipeline Monitoring
+
+![Pipeline Monitoring](screenshots/pipeline_monitoring.png)
 
 ### Data Quality Hub
-- Completeness checks
-- Freshness checks
-- Uniqueness checks
-- Validity checks
-- Referential integrity checks
-- Schema drift checks
-- Volume anomaly checks
-- Distribution drift checks
 
-### Lineage & Impact Explorer
-- Source-to-dashboard lineage
-- Downstream dependency mapping
-- Impact analysis for failed datasets
+![Data Quality](screenshots/data_quality.png)
 
 ### Incident Center
-- Automatically created incidents from quality failures and SLA breaches
-- Severity, owner, impact, root cause and remediation actions
+
+![Incident Center](screenshots/incident_center.png)
 
 ### Reliability Copilot
-- Answers operational questions from metadata
-- Explains failures
-- Summarises executive risk
-- Generates remediation guidance
 
-## Tech Stack
+![Copilot](screenshots/copilot.png)
+
+---
+
+## Technology Stack
 
 - Python
 - Gradio
 - Pandas
 - Plotly
+- NumPy
 - NetworkX
 - Hugging Face Spaces
 
-## Deployment
+---
 
-1. Create a new Hugging Face Space.
-2. Select **Gradio** as the SDK.
-3. Upload all files from this project.
-4. The app will run from `app.py`.
+## Use Cases
 
-## Portfolio Description
+- Data Engineering Operations
+- Data Reliability Engineering
+- Data Observability
+- Incident Management
+- SLA Governance
+- Data Platform Monitoring
 
-**DataPulse Enterprise — Real-Time Data Engineering Command Center**
-
-Built a live data operations platform that monitors data quality, pipeline SLAs, lineage, incidents and reliability signals across critical data products, with AI-style root cause analysis and executive reporting.
+---
 
 ## Author
 
-Pallavi Kwatra  
-Senior Data Engineer | Cloud Data Engineering | Governance | Reliability
+Pallavi Kwatra
+
+Senior Data Engineer | GCP | BigQuery | DataOps | AI
