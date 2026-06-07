@@ -1,0 +1,19 @@
+source,target,relationship
+Cloud Logging,security_events,streaming ingestion
+IAM Export,iam_inventory,batch snapshot
+Billing Export,cloud_cost_daily,daily export
+Payments API,payments_fact,batch ingestion
+CRM,customer_profile,batch ingestion
+customer_profile,customer_360_mart,curation
+payments_fact,customer_360_mart,join/enrichment
+customer_profile,fraud_signals,feature input
+payments_fact,fraud_signals,feature input
+fraud_signals,risk_feature_store,feature store
+loan_applications,risk_feature_store,feature store
+iam_inventory,audit_evidence,control evidence
+security_events,audit_evidence,control evidence
+audit_evidence,regulatory_reporting,reporting mart
+payments_fact,regulatory_reporting,reconciliation
+regulatory_reporting,Board Risk Dashboard,dashboard
+cloud_cost_daily,FinOps Dashboard,dashboard
+data_quality_metrics,Data Quality Scorecard,dashboard

@@ -1,0 +1,169 @@
+run_id,pipeline,dataset,pipeline_type,run_date,duration_minutes,sla_minutes,sla_status,status,records_processed,retry_count,error_category,backlog_events,cpu_utilisation_pct
+RUN-00001,pl_customer_ingestion,customer_profile,Batch,2026-06-07,47,75,Met,Succeeded,32488174,0,None,0,42.3
+RUN-00002,pl_payments_reconciliation,payments_fact,Batch,2026-06-07,65,60,Breached,Delayed,59767563,3,Null Spike,0,32.3
+RUN-00003,pl_audit_evidence_load,audit_evidence,Batch,2026-06-07,92,45,Breached,Delayed,12821272,0,API Timeout,0,80.9
+RUN-00004,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-07,37,30,Breached,Delayed,43594353,1,Partition Missing,0,43.6
+RUN-00005,pl_security_stream,security_events,Streaming,2026-06-07,9,10,Met,Delayed,4727438,1,Partition Missing,340189,41.3
+RUN-00006,pl_loan_application_sync,loan_applications,Batch,2026-06-07,87,50,Breached,Running,45721907,0,None,0,83.7
+RUN-00007,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-07,35,40,Met,Succeeded,16805351,0,None,0,28.4
+RUN-00008,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-07,73,80,Met,Succeeded,9015295,1,None,0,64.4
+RUN-00009,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-07,14,20,Breached,Failed,51224619,0,Partition Missing,0,57.8
+RUN-00010,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-07,10,15,Met,Succeeded,11507192,1,None,34005,90.3
+RUN-00011,pl_customer_360_build,customer_360_mart,Batch,2026-06-07,76,70,Breached,Delayed,21047376,1,Partition Missing,0,64.8
+RUN-00012,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-07,44,55,Met,Running,45450725,2,None,0,43.1
+RUN-00013,pl_customer_ingestion,customer_profile,Batch,2026-06-06,58,75,Met,Succeeded,17794044,0,None,0,86.8
+RUN-00014,pl_payments_reconciliation,payments_fact,Batch,2026-06-06,59,60,Met,Delayed,45802625,1,Source Delay,0,47.8
+RUN-00015,pl_audit_evidence_load,audit_evidence,Batch,2026-06-06,58,45,Breached,Delayed,32170968,0,API Timeout,0,36.3
+RUN-00016,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-06,20,30,Met,Succeeded,19316278,0,None,0,27.0
+RUN-00017,pl_security_stream,security_events,Streaming,2026-06-06,12,10,Breached,Failed,56053063,0,Source Delay,279591,44.1
+RUN-00018,pl_loan_application_sync,loan_applications,Batch,2026-06-06,31,50,Met,Succeeded,21973444,1,None,0,79.1
+RUN-00019,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-06,21,40,Met,Succeeded,40962725,0,None,0,88.0
+RUN-00020,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-06,65,80,Met,Succeeded,55616399,1,None,0,73.5
+RUN-00021,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-06,23,20,Breached,Delayed,44123490,0,Duplicate Keys,0,43.3
+RUN-00022,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-06,11,15,Met,Delayed,43320962,1,Null Spike,898027,44.9
+RUN-00023,pl_customer_360_build,customer_360_mart,Batch,2026-06-06,33,70,Met,Succeeded,54757177,1,None,0,55.5
+RUN-00024,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-06,69,55,Breached,Delayed,31627841,1,Partition Missing,0,71.2
+RUN-00025,pl_customer_ingestion,customer_profile,Batch,2026-06-05,66,75,Met,Succeeded,58105033,1,None,0,76.6
+RUN-00026,pl_payments_reconciliation,payments_fact,Batch,2026-06-05,22,60,Met,Succeeded,46226554,0,None,0,45.7
+RUN-00027,pl_audit_evidence_load,audit_evidence,Batch,2026-06-05,80,45,Breached,Delayed,23522950,0,Partition Missing,0,89.7
+RUN-00028,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-05,33,30,Breached,Delayed,17840935,1,Source Delay,0,29.4
+RUN-00029,pl_security_stream,security_events,Streaming,2026-06-05,25,10,Breached,Running,44618801,2,None,546995,52.4
+RUN-00030,pl_loan_application_sync,loan_applications,Batch,2026-06-05,43,50,Met,Succeeded,53052935,1,None,0,90.9
+RUN-00031,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-05,28,40,Met,Succeeded,33926705,0,None,0,50.3
+RUN-00032,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-05,51,80,Met,Succeeded,58250480,1,None,0,77.4
+RUN-00033,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-05,38,20,Breached,Delayed,25552750,3,Late Arriving Data,0,25.3
+RUN-00034,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-05,22,15,Breached,Delayed,38906938,0,Late Arriving Data,273432,32.5
+RUN-00035,pl_customer_360_build,customer_360_mart,Batch,2026-06-05,181,70,Breached,Delayed,57853573,1,Schema Change,0,56.8
+RUN-00036,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-05,43,55,Met,Succeeded,18871255,2,None,0,24.9
+RUN-00037,pl_customer_ingestion,customer_profile,Batch,2026-06-04,83,75,Breached,Delayed,6174056,1,Insufficient Quota,0,85.9
+RUN-00038,pl_payments_reconciliation,payments_fact,Batch,2026-06-04,77,60,Breached,Delayed,23478869,1,Insufficient Quota,0,90.8
+RUN-00039,pl_audit_evidence_load,audit_evidence,Batch,2026-06-04,28,45,Met,Succeeded,5171409,0,None,0,77.3
+RUN-00040,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-04,22,30,Met,Succeeded,21266608,1,None,0,37.7
+RUN-00041,pl_security_stream,security_events,Streaming,2026-06-04,9,10,Met,Succeeded,52190567,0,None,285383,81.7
+RUN-00042,pl_loan_application_sync,loan_applications,Batch,2026-06-04,18,50,Met,Succeeded,22948795,0,None,0,39.3
+RUN-00043,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-04,28,40,Met,Delayed,30280950,0,Late Arriving Data,0,50.9
+RUN-00044,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-04,60,80,Met,Succeeded,15455051,0,None,0,40.4
+RUN-00045,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-04,23,20,Breached,Delayed,54853885,0,Null Spike,0,87.6
+RUN-00046,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-04,12,15,Breached,Failed,58021503,3,Insufficient Quota,19757,45.4
+RUN-00047,pl_customer_360_build,customer_360_mart,Batch,2026-06-04,20,70,Met,Succeeded,4193496,0,None,0,29.1
+RUN-00048,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-04,64,55,Breached,Delayed,5789300,1,Schema Change,0,71.2
+RUN-00049,pl_customer_ingestion,customer_profile,Batch,2026-06-03,50,75,Met,Succeeded,38474307,0,None,0,28.5
+RUN-00050,pl_payments_reconciliation,payments_fact,Batch,2026-06-03,45,60,Met,Succeeded,39168839,3,None,0,37.7
+RUN-00051,pl_audit_evidence_load,audit_evidence,Batch,2026-06-03,38,45,Met,Succeeded,28711520,3,None,0,60.0
+RUN-00052,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-03,31,30,Breached,Delayed,33181719,0,Source Delay,0,26.8
+RUN-00053,pl_security_stream,security_events,Streaming,2026-06-03,5,10,Met,Succeeded,22002097,3,None,79676,60.9
+RUN-00054,pl_loan_application_sync,loan_applications,Batch,2026-06-03,37,50,Breached,Failed,57979122,0,Late Arriving Data,0,68.5
+RUN-00055,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-03,38,40,Met,Succeeded,45208288,1,None,0,57.3
+RUN-00056,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-03,97,80,Breached,Delayed,36725106,2,Late Arriving Data,0,37.3
+RUN-00057,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-03,17,20,Met,Succeeded,3775154,1,None,0,82.8
+RUN-00058,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-03,18,15,Breached,Delayed,57714289,1,Late Arriving Data,353911,41.5
+RUN-00059,pl_customer_360_build,customer_360_mart,Batch,2026-06-03,73,70,Breached,Running,49943536,0,None,0,44.4
+RUN-00060,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-03,29,55,Breached,Failed,2343439,0,Late Arriving Data,0,81.9
+RUN-00061,pl_customer_ingestion,customer_profile,Batch,2026-06-02,57,75,Met,Succeeded,15045079,0,None,0,88.9
+RUN-00062,pl_payments_reconciliation,payments_fact,Batch,2026-06-02,68,60,Breached,Delayed,47055134,1,Source Delay,0,86.3
+RUN-00063,pl_audit_evidence_load,audit_evidence,Batch,2026-06-02,37,45,Met,Running,30882459,0,None,0,49.6
+RUN-00064,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-02,52,30,Breached,Delayed,39470807,1,Null Spike,0,88.3
+RUN-00065,pl_security_stream,security_events,Streaming,2026-06-02,8,10,Met,Succeeded,4822136,1,None,21839,35.6
+RUN-00066,pl_loan_application_sync,loan_applications,Batch,2026-06-02,123,50,Breached,Delayed,42975765,1,Insufficient Quota,0,32.9
+RUN-00067,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-02,38,40,Breached,Failed,30456311,0,API Timeout,0,70.8
+RUN-00068,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-02,79,80,Met,Succeeded,21184426,0,None,0,67.2
+RUN-00069,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-02,13,20,Met,Succeeded,914184,3,None,0,86.2
+RUN-00070,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-02,14,15,Met,Succeeded,45436491,3,None,400099,25.1
+RUN-00071,pl_customer_360_build,customer_360_mart,Batch,2026-06-02,167,70,Breached,Delayed,48710485,0,Duplicate Keys,0,48.7
+RUN-00072,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-02,63,55,Breached,Delayed,54619035,0,API Timeout,0,37.3
+RUN-00073,pl_customer_ingestion,customer_profile,Batch,2026-06-01,65,75,Breached,Failed,54757745,2,Schema Change,0,29.1
+RUN-00074,pl_payments_reconciliation,payments_fact,Batch,2026-06-01,46,60,Met,Succeeded,34658009,1,None,0,74.4
+RUN-00075,pl_audit_evidence_load,audit_evidence,Batch,2026-06-01,34,45,Met,Succeeded,34589209,2,None,0,75.0
+RUN-00076,pl_cost_export_daily,cloud_cost_daily,Batch,2026-06-01,10,30,Met,Succeeded,28979991,0,None,0,45.6
+RUN-00077,pl_security_stream,security_events,Streaming,2026-06-01,12,10,Breached,Delayed,6053756,0,Late Arriving Data,408908,79.4
+RUN-00078,pl_loan_application_sync,loan_applications,Batch,2026-06-01,30,50,Met,Succeeded,22690205,1,None,0,44.8
+RUN-00079,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-06-01,92,40,Breached,Delayed,54654941,1,Insufficient Quota,0,35.4
+RUN-00080,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-06-01,43,80,Met,Succeeded,54028862,0,None,0,56.2
+RUN-00081,pl_quality_score_refresh,data_quality_metrics,Batch,2026-06-01,34,20,Breached,Delayed,28942454,1,Partition Missing,0,54.6
+RUN-00082,pl_fraud_feature_stream,fraud_signals,Streaming,2026-06-01,10,15,Met,Succeeded,52449442,1,None,111360,86.1
+RUN-00083,pl_customer_360_build,customer_360_mart,Batch,2026-06-01,61,70,Met,Delayed,38536352,0,Source Delay,0,39.0
+RUN-00084,pl_risk_feature_materialise,risk_feature_store,Batch,2026-06-01,42,55,Met,Succeeded,42349740,0,None,0,50.5
+RUN-00085,pl_customer_ingestion,customer_profile,Batch,2026-05-31,41,75,Met,Succeeded,7221235,0,None,0,89.1
+RUN-00086,pl_payments_reconciliation,payments_fact,Batch,2026-05-31,51,60,Met,Succeeded,39792861,1,None,0,31.4
+RUN-00087,pl_audit_evidence_load,audit_evidence,Batch,2026-05-31,22,45,Met,Delayed,23991279,1,Null Spike,0,53.7
+RUN-00088,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-31,22,30,Met,Succeeded,17576534,3,None,0,34.4
+RUN-00089,pl_security_stream,security_events,Streaming,2026-05-31,20,10,Breached,Delayed,9982011,1,Insufficient Quota,783899,61.3
+RUN-00090,pl_loan_application_sync,loan_applications,Batch,2026-05-31,45,50,Met,Succeeded,29091521,1,None,0,69.7
+RUN-00091,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-31,21,40,Met,Succeeded,16058204,2,None,0,58.3
+RUN-00092,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-31,82,80,Breached,Delayed,51252357,0,Schema Change,0,44.1
+RUN-00093,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-31,19,20,Met,Succeeded,36428002,0,None,0,86.3
+RUN-00094,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-31,31,15,Breached,Delayed,10405934,0,Source Delay,396520,66.8
+RUN-00095,pl_customer_360_build,customer_360_mart,Batch,2026-05-31,72,70,Breached,Delayed,28869931,0,Schema Change,0,65.4
+RUN-00096,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-31,35,55,Met,Succeeded,7513977,1,None,0,46.5
+RUN-00097,pl_customer_ingestion,customer_profile,Batch,2026-05-30,39,75,Met,Succeeded,4112963,1,None,0,65.4
+RUN-00098,pl_payments_reconciliation,payments_fact,Batch,2026-05-30,67,60,Breached,Delayed,37370603,0,Duplicate Keys,0,90.2
+RUN-00099,pl_audit_evidence_load,audit_evidence,Batch,2026-05-30,30,45,Met,Running,25541602,0,None,0,58.5
+RUN-00100,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-30,43,30,Breached,Delayed,51543521,3,API Timeout,0,81.5
+RUN-00101,pl_security_stream,security_events,Streaming,2026-05-30,4,10,Met,Succeeded,54103088,1,None,467670,83.4
+RUN-00102,pl_loan_application_sync,loan_applications,Batch,2026-05-30,84,50,Breached,Delayed,6485040,1,Late Arriving Data,0,90.0
+RUN-00103,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-30,32,40,Met,Delayed,10527356,1,Insufficient Quota,0,34.9
+RUN-00104,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-30,84,80,Breached,Delayed,18170120,3,Late Arriving Data,0,38.9
+RUN-00105,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-30,17,20,Met,Succeeded,5979191,1,None,0,49.7
+RUN-00106,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-30,14,15,Breached,Failed,45901610,0,Duplicate Keys,256433,27.7
+RUN-00107,pl_customer_360_build,customer_360_mart,Batch,2026-05-30,50,70,Met,Succeeded,5841702,3,None,0,63.4
+RUN-00108,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-30,42,55,Met,Succeeded,53703322,0,None,0,40.7
+RUN-00109,pl_customer_ingestion,customer_profile,Batch,2026-05-29,179,75,Breached,Running,30665248,1,None,0,69.0
+RUN-00110,pl_payments_reconciliation,payments_fact,Batch,2026-05-29,77,60,Breached,Delayed,38719321,1,Late Arriving Data,0,54.5
+RUN-00111,pl_audit_evidence_load,audit_evidence,Batch,2026-05-29,25,45,Met,Succeeded,40939178,0,None,0,73.7
+RUN-00112,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-29,23,30,Met,Succeeded,17757619,0,None,0,42.2
+RUN-00113,pl_security_stream,security_events,Streaming,2026-05-29,10,10,Met,Succeeded,11936599,0,None,707700,44.3
+RUN-00114,pl_loan_application_sync,loan_applications,Batch,2026-05-29,54,50,Breached,Delayed,40655960,1,Partition Missing,0,55.0
+RUN-00115,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-29,32,40,Met,Succeeded,6622800,3,None,0,80.2
+RUN-00116,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-29,56,80,Met,Delayed,8535245,1,Late Arriving Data,0,51.9
+RUN-00117,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-29,11,20,Met,Succeeded,25287193,1,None,0,60.5
+RUN-00118,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-29,10,15,Met,Delayed,30736931,2,Null Spike,892954,22.3
+RUN-00119,pl_customer_360_build,customer_360_mart,Batch,2026-05-29,72,70,Breached,Delayed,33159774,1,Insufficient Quota,0,24.2
+RUN-00120,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-29,43,55,Met,Succeeded,21655064,0,None,0,52.3
+RUN-00121,pl_customer_ingestion,customer_profile,Batch,2026-05-28,74,75,Met,Running,34135249,1,None,0,44.5
+RUN-00122,pl_payments_reconciliation,payments_fact,Batch,2026-05-28,31,60,Met,Delayed,801214,0,Partition Missing,0,75.6
+RUN-00123,pl_audit_evidence_load,audit_evidence,Batch,2026-05-28,49,45,Breached,Delayed,26088649,3,Insufficient Quota,0,72.4
+RUN-00124,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-28,14,30,Met,Succeeded,56278821,1,None,0,38.3
+RUN-00125,pl_security_stream,security_events,Streaming,2026-05-28,10,10,Met,Succeeded,4306949,1,None,98557,40.2
+RUN-00126,pl_loan_application_sync,loan_applications,Batch,2026-05-28,46,50,Met,Running,7029309,0,None,0,39.5
+RUN-00127,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-28,53,40,Breached,Delayed,4427847,0,Late Arriving Data,0,36.4
+RUN-00128,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-28,58,80,Met,Succeeded,3995530,0,None,0,24.2
+RUN-00129,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-28,16,20,Met,Succeeded,51917988,1,None,0,34.1
+RUN-00130,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-28,13,15,Breached,Failed,53870689,2,Source Delay,657925,24.9
+RUN-00131,pl_customer_360_build,customer_360_mart,Batch,2026-05-28,55,70,Met,Succeeded,45422890,2,None,0,42.5
+RUN-00132,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-28,46,55,Met,Succeeded,21954649,0,None,0,29.8
+RUN-00133,pl_customer_ingestion,customer_profile,Batch,2026-05-27,26,75,Met,Succeeded,58754621,0,None,0,27.7
+RUN-00134,pl_payments_reconciliation,payments_fact,Batch,2026-05-27,142,60,Breached,Delayed,50364547,1,Schema Change,0,49.2
+RUN-00135,pl_audit_evidence_load,audit_evidence,Batch,2026-05-27,28,45,Breached,Failed,28853589,0,Schema Change,0,74.6
+RUN-00136,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-27,68,30,Breached,Running,39211196,0,None,0,46.7
+RUN-00137,pl_security_stream,security_events,Streaming,2026-05-27,6,10,Met,Succeeded,13228934,0,None,435242,89.4
+RUN-00138,pl_loan_application_sync,loan_applications,Batch,2026-05-27,40,50,Met,Succeeded,31059389,0,None,0,68.7
+RUN-00139,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-27,25,40,Met,Succeeded,26465987,2,None,0,42.3
+RUN-00140,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-27,133,80,Breached,Delayed,40158956,0,Null Spike,0,34.5
+RUN-00141,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-27,15,20,Met,Succeeded,1292055,3,None,0,52.5
+RUN-00142,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-27,11,15,Met,Succeeded,45224739,1,None,153440,29.7
+RUN-00143,pl_customer_360_build,customer_360_mart,Batch,2026-05-27,44,70,Breached,Failed,8137008,0,Insufficient Quota,0,41.5
+RUN-00144,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-27,117,55,Breached,Delayed,16532679,2,API Timeout,0,61.1
+RUN-00145,pl_customer_ingestion,customer_profile,Batch,2026-05-26,70,75,Met,Succeeded,19887606,2,None,0,39.3
+RUN-00146,pl_payments_reconciliation,payments_fact,Batch,2026-05-26,36,60,Met,Succeeded,3748685,1,None,0,70.5
+RUN-00147,pl_audit_evidence_load,audit_evidence,Batch,2026-05-26,88,45,Breached,Running,21810256,3,None,0,24.3
+RUN-00148,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-26,11,30,Breached,Failed,39496519,2,Duplicate Keys,0,60.8
+RUN-00149,pl_security_stream,security_events,Streaming,2026-05-26,6,10,Breached,Failed,24008516,3,Partition Missing,283458,55.1
+RUN-00150,pl_loan_application_sync,loan_applications,Batch,2026-05-26,27,50,Met,Running,36173945,1,None,0,49.8
+RUN-00151,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-26,44,40,Breached,Delayed,4053280,0,Duplicate Keys,0,53.7
+RUN-00152,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-26,39,80,Met,Succeeded,20440061,0,None,0,50.9
+RUN-00153,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-26,8,20,Met,Succeeded,59348305,1,None,0,28.3
+RUN-00154,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-26,11,15,Met,Succeeded,52650468,0,None,493791,42.1
+RUN-00155,pl_customer_360_build,customer_360_mart,Batch,2026-05-26,53,70,Met,Succeeded,12738048,0,None,0,49.6
+RUN-00156,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-26,41,55,Met,Succeeded,16709565,0,None,0,63.5
+RUN-00157,pl_customer_ingestion,customer_profile,Batch,2026-05-25,47,75,Met,Succeeded,9028888,1,None,0,68.8
+RUN-00158,pl_payments_reconciliation,payments_fact,Batch,2026-05-25,81,60,Breached,Delayed,24974831,0,Schema Change,0,36.2
+RUN-00159,pl_audit_evidence_load,audit_evidence,Batch,2026-05-25,32,45,Met,Succeeded,59816230,2,None,0,59.5
+RUN-00160,pl_cost_export_daily,cloud_cost_daily,Batch,2026-05-25,16,30,Met,Succeeded,46856944,2,None,0,66.1
+RUN-00161,pl_security_stream,security_events,Streaming,2026-05-25,9,10,Met,Succeeded,49260419,0,None,33727,77.2
+RUN-00162,pl_loan_application_sync,loan_applications,Batch,2026-05-25,52,50,Breached,Running,10110122,0,None,0,75.8
+RUN-00163,pl_iam_inventory_snapshot,iam_inventory,Batch,2026-05-25,38,40,Met,Succeeded,4521855,0,None,0,31.1
+RUN-00164,pl_regulatory_report_mart,regulatory_reporting,Batch,2026-05-25,68,80,Met,Succeeded,17212162,2,None,0,72.9
+RUN-00165,pl_quality_score_refresh,data_quality_metrics,Batch,2026-05-25,13,20,Met,Running,14870012,2,None,0,28.6
+RUN-00166,pl_fraud_feature_stream,fraud_signals,Streaming,2026-05-25,13,15,Met,Succeeded,9906392,1,None,334323,66.0
+RUN-00167,pl_customer_360_build,customer_360_mart,Batch,2026-05-25,77,70,Breached,Delayed,55920749,2,Schema Change,0,62.8
+RUN-00168,pl_risk_feature_materialise,risk_feature_store,Batch,2026-05-25,33,55,Met,Succeeded,44789060,0,None,0,41.2

@@ -1,0 +1,80 @@
+rule_id,dataset,application,owner_team,criticality,regulatory_mapping,rule_type,threshold_pct,current_score_pct,status,last_checked,business_impact
+DQ-0001,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Volume Anomaly,90,95.86,Passed,2026-06-06,May delay downstream analytical datasets
+DQ-0002,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Freshness,95,90.04,Failed,2026-06-07,May impact executive dashboard accuracy
+DQ-0003,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Completeness,98,96.02,Failed,2026-06-06,May affect ML feature reliability
+DQ-0004,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Distribution Drift,92,99.8,Passed,2026-06-07,May delay downstream analytical datasets
+DQ-0005,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Schema Drift,100,98.77,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0006,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Validity,97,94.69,Failed,2026-06-07,May reduce confidence in operational KPIs
+DQ-0007,customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR,Referential Integrity,98,95.65,Failed,2026-06-05,May affect regulatory reporting completeness
+DQ-0008,payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS,Uniqueness,99,99.98,Passed,2026-06-06,May affect regulatory reporting completeness
+DQ-0009,payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS,Volume Anomaly,90,88.99,Failed,2026-06-05,May affect ML feature reliability
+DQ-0010,payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS,Distribution Drift,92,72.17,Failed,2026-06-04,May affect ML feature reliability
+DQ-0011,payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS,Referential Integrity,98,99.59,Passed,2026-06-04,May impact executive dashboard accuracy
+DQ-0012,payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS,Schema Drift,100,81.58,Failed,2026-06-06,May affect regulatory reporting completeness
+DQ-0013,payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS,Completeness,98,93.25,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0014,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Referential Integrity,98,96.34,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0015,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Volume Anomaly,90,92.21,Passed,2026-06-06,May delay downstream analytical datasets
+DQ-0016,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Distribution Drift,92,86.72,Failed,2026-06-04,May delay downstream analytical datasets
+DQ-0017,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Schema Drift,100,94.86,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0018,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Completeness,98,92.99,Failed,2026-06-06,May delay downstream analytical datasets
+DQ-0019,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Validity,97,93.83,Failed,2026-06-06,May delay downstream analytical datasets
+DQ-0020,audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX,Freshness,95,97.94,Passed,2026-06-06,May affect regulatory reporting completeness
+DQ-0021,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Volume Anomaly,90,88.23,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0022,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Distribution Drift,92,99.9,Passed,2026-06-05,May delay downstream analytical datasets
+DQ-0023,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Validity,97,95.52,Failed,2026-06-07,May reduce confidence in operational KPIs
+DQ-0024,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Uniqueness,99,97.43,Failed,2026-06-05,May reduce confidence in operational KPIs
+DQ-0025,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Completeness,98,93.56,Failed,2026-06-07,May reduce confidence in operational KPIs
+DQ-0026,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Freshness,95,91.53,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0027,cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy,Schema Drift,100,97.64,Failed,2026-06-06,May affect ML feature reliability
+DQ-0028,security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001,Distribution Drift,92,72.27,Failed,2026-06-05,May affect regulatory reporting completeness
+DQ-0029,security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001,Validity,97,91.07,Failed,2026-06-06,May delay downstream analytical datasets
+DQ-0030,security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001,Uniqueness,99,94.0,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0031,security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001,Referential Integrity,98,88.21,Failed,2026-06-06,May affect regulatory reporting completeness
+DQ-0032,security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001,Volume Anomaly,90,79.18,Failed,2026-06-05,May reduce confidence in operational KPIs
+DQ-0033,security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001,Schema Drift,100,85.77,Failed,2026-06-06,May reduce confidence in operational KPIs
+DQ-0034,loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA,Completeness,98,96.33,Failed,2026-06-07,May affect ML feature reliability
+DQ-0035,loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA,Freshness,95,97.68,Passed,2026-06-06,May affect regulatory reporting completeness
+DQ-0036,loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA,Uniqueness,99,93.85,Failed,2026-06-07,May reduce confidence in operational KPIs
+DQ-0037,loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA,Schema Drift,100,94.68,Failed,2026-06-05,May affect regulatory reporting completeness
+DQ-0038,loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA,Referential Integrity,98,97.91,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0039,loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA,Volume Anomaly,90,85.51,Failed,2026-06-07,May affect regulatory reporting completeness
+DQ-0040,iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX,Uniqueness,99,94.26,Failed,2026-06-06,May delay downstream analytical datasets
+DQ-0041,iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX,Volume Anomaly,90,94.69,Passed,2026-06-06,May delay downstream analytical datasets
+DQ-0042,iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX,Schema Drift,100,96.78,Failed,2026-06-07,May affect regulatory reporting completeness
+DQ-0043,iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX,Distribution Drift,92,86.71,Failed,2026-06-07,May affect ML feature reliability
+DQ-0044,iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX,Completeness,98,99.18,Passed,2026-06-04,May delay downstream analytical datasets
+DQ-0045,iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX,Referential Integrity,98,98.97,Passed,2026-06-04,May reduce confidence in operational KPIs
+DQ-0046,regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA,Distribution Drift,92,94.08,Passed,2026-06-05,May affect ML feature reliability
+DQ-0047,regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA,Volume Anomaly,90,70.72,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0048,regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA,Validity,97,95.48,Failed,2026-06-07,May reduce confidence in operational KPIs
+DQ-0049,regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA,Referential Integrity,98,92.39,Failed,2026-06-04,May delay downstream analytical datasets
+DQ-0050,regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA,Freshness,95,94.4,Failed,2026-06-05,May affect ML feature reliability
+DQ-0051,regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA,Uniqueness,99,93.52,Failed,2026-06-04,May affect regulatory reporting completeness
+DQ-0052,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Schema Drift,100,95.61,Failed,2026-06-04,May reduce confidence in operational KPIs
+DQ-0053,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Completeness,98,97.82,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0054,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Validity,97,99.52,Passed,2026-06-04,May affect regulatory reporting completeness
+DQ-0055,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Uniqueness,99,95.65,Failed,2026-06-07,May reduce confidence in operational KPIs
+DQ-0056,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Freshness,95,92.18,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0057,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Volume Anomaly,90,86.1,Failed,2026-06-05,May affect regulatory reporting completeness
+DQ-0058,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Referential Integrity,98,94.64,Failed,2026-06-04,May affect ML feature reliability
+DQ-0059,data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy,Distribution Drift,92,92.69,Passed,2026-06-07,May impact executive dashboard accuracy
+DQ-0060,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Schema Drift,100,99.45,Failed,2026-06-05,May affect ML feature reliability
+DQ-0061,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Distribution Drift,92,91.06,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0062,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Completeness,98,98.7,Passed,2026-06-06,May reduce confidence in operational KPIs
+DQ-0063,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Volume Anomaly,90,85.17,Failed,2026-06-04,May affect ML feature reliability
+DQ-0064,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Referential Integrity,98,96.64,Failed,2026-06-04,May affect regulatory reporting completeness
+DQ-0065,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Uniqueness,99,96.8,Failed,2026-06-07,May delay downstream analytical datasets
+DQ-0066,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Freshness,95,94.34,Failed,2026-06-07,May delay downstream analytical datasets
+DQ-0067,fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS,Validity,97,92.04,Failed,2026-06-06,May delay downstream analytical datasets
+DQ-0068,customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR,Schema Drift,100,98.99,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0069,customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR,Referential Integrity,98,96.41,Failed,2026-06-06,May affect ML feature reliability
+DQ-0070,customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR,Distribution Drift,92,98.12,Passed,2026-06-06,May affect ML feature reliability
+DQ-0071,customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR,Completeness,98,99.51,Passed,2026-06-07,May affect ML feature reliability
+DQ-0072,customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR,Uniqueness,99,96.33,Failed,2026-06-07,May impact executive dashboard accuracy
+DQ-0073,customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR,Validity,97,94.39,Failed,2026-06-05,May affect ML feature reliability
+DQ-0074,risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA,Validity,97,93.94,Failed,2026-06-06,May reduce confidence in operational KPIs
+DQ-0075,risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA,Schema Drift,100,99.24,Failed,2026-06-05,May impact executive dashboard accuracy
+DQ-0076,risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA,Freshness,95,89.69,Failed,2026-06-05,May affect ML feature reliability
+DQ-0077,risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA,Referential Integrity,98,95.49,Failed,2026-06-04,May impact executive dashboard accuracy
+DQ-0078,risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA,Distribution Drift,92,99.83,Passed,2026-06-05,May reduce confidence in operational KPIs
+DQ-0079,risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA,Volume Anomaly,90,98.84,Passed,2026-06-07,May affect ML feature reliability

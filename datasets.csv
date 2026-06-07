@@ -1,0 +1,13 @@
+dataset,application,owner_team,criticality,regulatory_mapping
+customer_profile,Customer Data Platform,Data Platform,Tier 1,GDPR
+payments_fact,Payments Gateway,Finance Data,Tier 0,PCI-DSS
+audit_evidence,AuditIQ,Cloud Security,Tier 1,SOX
+cloud_cost_daily,CostIQ,FinOps,Tier 1,Internal Policy
+security_events,Threat Intelligence Lake,Cyber Risk,Tier 0,ISO 27001
+loan_applications,Loan Origination,Lending Analytics,Tier 1,FCA
+iam_inventory,Privileged Access Vault,IAM Operations,Tier 0,SOX
+regulatory_reporting,Regulatory Reporting Hub,Risk Analytics,Tier 0,FCA
+data_quality_metrics,Data Reliability Hub,Data Governance,Tier 2,Internal Policy
+fraud_signals,Fraud Detection Service,Fraud Engineering,Tier 1,PCI-DSS
+customer_360_mart,Customer Analytics,Customer Analytics,Tier 1,GDPR
+risk_feature_store,Risk ML Platform,Risk Analytics,Tier 1,FCA
